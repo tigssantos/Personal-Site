@@ -1,0 +1,130 @@
+Searching 2633 files for "SQLite3"
+
+/Users/thiago/HomeNowsWeb/.gitignore:
+    9  
+   10  # Ignore the default SQLite database.
+   11: /db/*.sqlite3
+   12: /db/*.sqlite3-journal
+   13  
+   14  # Ignore all logfiles and tempfiles.
+
+/Users/thiago/HomeNowsWeb/Gemfile:
+   15  # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+   16  gem 'rails', '~> 5.2.2'
+   17: # Use sqlite3 as the database for Active Record
+   18  # Use Puma as the app server
+   19  gem 'puma', '~> 3.7'
+   ..
+   41  
+   42  group :development, :test do
+   43:   gem 'sqlite3'
+   44    # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+   45    gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
+/Users/thiago/HomeNowsWeb/Gemfile.lock:
+  185        activesupport (>= 4.0)
+  186        sprockets (>= 3.0.0)
+  187:     sqlite3 (1.4.1)
+  188      tether-rails (1.4.0)
+  189        rails (>= 3.1)
+  ...
+  232    selenium-webdriver
+  233    simple_form
+  234:   sqlite3
+  235    tether-rails
+  236    turbolinks (~> 5)
+
+/Users/thiago/HomeNowsWeb/config/database.yml:
+    1  # SQLite version 3.x
+    2: #   gem install sqlite3
+    3  #
+    4  #   Ensure the SQLite 3 gem is defined in your Gemfile
+    5: #   gem 'sqlite3'
+    6  #
+    7  default: &default
+    8:   adapter: sqlite3
+    9    pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+   10    timeout: 5000
+   ..
+   12  development:
+   13    <<: *default
+   14:   database: db/development.sqlite3
+   15  
+   16  # Warning: The database defined as "test" will be erased and
+   ..
+   19  test:
+   20    <<: *default
+   21:   database: db/test.sqlite3
+   22  
+   23  production:
+   24    <<: *default
+   25:   database: db/production.sqlite3
+   26  
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-load-path-cache:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/03/f81b549675a0a2:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/13/785321e32e31ad:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/17/344fb9c2eedc8f:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/1f/33425ff3fe09c6:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/22/d8d6b8312e656e:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/23/d485b7107cbccd:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/27/3226641e084f24:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/32/51942c5c2ece9f:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/36/4300e56277fa38:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/57/3e740d846fb870:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/5e/6dfa8da8b554d2:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/8a/404ad75d8fe15e:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/8f/12d6e5ef7c2f7e:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/99/2020dfb1f5e4cc:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/9c/6427c540ac52f2:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/ad/a9674e9cabe379:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/b3/71dbc20af849f5:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/c4/52f67dcb952608:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/d4/572c04c1c58981:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/d7/06dfff5e50d1ef:
+    <binary>
+
+/Users/thiago/HomeNowsWeb/tmp/cache/bootsnap-compile-cache/f7/4bb22d5d598914:
+    <binary>
+
+159 matches across 26 files

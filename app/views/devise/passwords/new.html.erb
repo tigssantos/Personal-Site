@@ -1,0 +1,27 @@
+
+<%= simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+  <%= f.error_notification %>
+
+ <section id="about">
+  <div class="container">
+   <div class="row">
+    <h2 class="form-title text-center">
+      Forgot Password
+    </h2>
+    <div class="form-inputs col-sm-9 col-md-7 col-lg-5 mx-auto">
+    <%= f.input :email,
+                required: true,
+                autofocus: true,
+                input_html: { autocomplete: "email" } %>
+  </div>
+
+  <div class="form-actions text-center">
+      <%= f.button :submit, "Send me password instructions" %>
+      <%= render "devise/shared/links" %>
+    </div>
+
+    <% end %>
+  </div>
+
+</div>
+</section>
