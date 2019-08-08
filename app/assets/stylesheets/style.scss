@@ -665,6 +665,10 @@ input::-webkit-input-placeholder {
     background: #111 !important;
 }
 
+.bg-blue {
+    background: #2b335e !important;
+}
+
 .bg-blue-opacity {
     background: linear-gradient(180deg, #192369, rgba(33, 41, 94, .8));
 }
@@ -758,6 +762,14 @@ input::-webkit-input-placeholder {
 
 .main-bg-back-7{
     background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),image-url("seo/pay.jpg") no-repeat center center fixed;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+
+}
+
+.main-bg-back-8{
+    background: linear-gradient( rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5) ),image-url("seo/courses.jpg") no-repeat center center fixed;
     background-size:cover;
     background-position: center center;
     display: flex;
@@ -938,6 +950,7 @@ input::-webkit-input-placeholder {
 .header-text{
     text-align: left;
 }
+
 
 
 
